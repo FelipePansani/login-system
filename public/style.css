@@ -1,0 +1,35 @@
+html, body {
+    text-align: center;
+}
+
+.btn {
+    color: white;
+    background: rgb(94, 94, 158)
+}
+
+.table-line {
+    padding: 2px;
+    color: rgb(94, 94, 158);
+    border: 1px solid;
+}
+
+.user-box {
+    overflow-wrap: break-word;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 120px  auto;
+    margin: 40px 20px 0px 40px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgb(88, 88, 88);
+    color: white;
+}
+
+.warning-text {
+    color: rgb(255, 82, 82);
+}
+
+.btn.logout{
+    margin-left: 90%;
+}

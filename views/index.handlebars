@@ -1,0 +1,16 @@
+<section>
+    <h3>Home - Login</h3><br><br>
+
+    <a href="/register">Register</a>
+    <a href="/login">Login</a>
+    <br><br>
+    <div class="container">
+        <div class="row">
+            {{#each user}}
+            <div class="user-box">
+                <h6>{{email}}</h6>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</section>
